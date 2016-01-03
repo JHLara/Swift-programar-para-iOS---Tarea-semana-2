@@ -10,17 +10,17 @@ var numeros = 1...100
 
 for i in numeros {
     if i % 5 == 0{
-        divisiblePor5 = " Bingo"
+        divisiblePor5 = " Bingo!!!"
     }else{
         divisiblePor5 = ""
     }
     if i % 2 == 0{
-        par = " Par"
+        par = " Par!!!"
     }else{
-        par = " Impar"
+        par = " Impar!!!"
     }
     if i >= 30 && i <= 40{
-        entre3040 = " Viva Swift"
+        entre3040 = " Viva Swift!!!"
     }else{
         entre3040 = ""
     }
