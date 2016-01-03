@@ -6,7 +6,7 @@ var divisiblePor5 = ""
 var par = ""
 var entre3040 = ""
 
-var numeros = 1...100
+var numeros = 0...100
 
 for i in numeros {
     if i % 5 == 0{
