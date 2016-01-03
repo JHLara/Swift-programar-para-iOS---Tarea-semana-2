@@ -1,0 +1,29 @@
+//: Playground - noun: a place where people can play
+
+import UIKit
+
+var divisiblePor5 = ""
+var par = ""
+var entre3040 = ""
+
+var numeros = 1...100
+
+for i in numeros {
+    if i % 5 == 0{
+        divisiblePor5 = " Bingo"
+    }else{
+        divisiblePor5 = ""
+    }
+    if i % 2 == 0{
+        par = " Par"
+    }else{
+        par = " Impar"
+    }
+    if i >= 30 && i <= 40{
+        entre3040 = " Viva Swift"
+    }else{
+        entre3040 = ""
+    }
+    
+    print("\(i)" + divisiblePor5 + par + entre3040)
+}
